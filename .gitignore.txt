@@ -1,0 +1,31 @@
+# Ignore Eclipse project files
+.classpath
+.project
+.settings/
+
+# Maven build directory
+target/
+.mvn/
+
+# Test output
+test-output/
+allure-results/
+
+# Logs and temp files
+*.log
+*.tmp
+
+# OS-specific files
+.DS_Store
+Thumbs.db
+
+# IDE files
+.idea/
+*.iml
+
+# Git ignore file itself if not needed
+.gitignore.txt
+
+# Resources output if generated dynamically
+resources/*.class
+
